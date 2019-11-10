@@ -12,4 +12,4 @@ cur.execute("SELECT * FROM pharmacy  ;")
 
 # print all the first and second cells of all the rows
 for row in cur.fetchall() :
-    print (row[0])
+    print (row[0],row[1])
